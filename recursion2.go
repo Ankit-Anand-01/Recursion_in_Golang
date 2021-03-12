@@ -1,3 +1,4 @@
+//infinite recursive func in Golang
 package main
 
 import (
@@ -9,13 +10,11 @@ func print() {
 
 	// printing infinite times
 	fmt.Println("Ankit")
+	//calling func recursively
 	print()
 }
 
-// main function
 func main() {
-
-	// call to infinite
-	// recursive function
+       //calling func
 	print()
 }
