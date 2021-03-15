@@ -1,11 +1,10 @@
-//indirect recursion in Golang
+//Printing Ping Pong using indirect recursion in Golang
 package main
 
 import (
 	"fmt"
 	"time"
 )
-
 func printping() {
 	fmt.Println("Ping")
 	time.Sleep(2 * time.Second)
